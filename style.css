@@ -1,0 +1,52 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  background-color: black;
+}
+.chess {
+  background-color: white;
+  height: 800px;
+  width: 800px;
+  margin: 40px;
+  z-index: 2;
+  margin-left: 350px;
+  /* filter: drop-shadow(10px 10px  10px white ); */
+  box-shadow: 0 0 50px gold;
+}
+#namber {
+  display: flex;
+}
+h1 {
+  text-align: center;
+  color: white;
+  box-shadow: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.white {
+  height: 100px;
+  width: 100px;
+  background-color: white;
+  cursor: pointer;
+  box-shadow:0 0 100px gold transparent;
+  transition: 300ms;
+}
+.white:hover,.black:hover {
+
+  z-index: 2;
+  box-shadow: 0 0 20px gold;
+  transform:scale(1.05);
+}
+.black {
+  height: 100px;
+  width: 100px;
+  background-color: black;
+  cursor: pointer;
+  box-shadow: 4px 2px 10px 10px gold transparent;
+}
+.row {
+  display: flex;
+}
