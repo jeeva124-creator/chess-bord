@@ -3,17 +3,16 @@
   margin: 0px;
 }
 body {
-  background-color: black;
+  background-color:white;
 }
 .chess {
   background-color: white;
   height: 800px;
   width: 800px;
   margin: 40px;
-  z-index: 2;
   margin-left: 350px;
   /* filter: drop-shadow(10px 10px  10px white ); */
-  box-shadow: 0 0 50px gold;
+  box-shadow: 0 0 50px black;
 }
 #namber {
   display: flex;
@@ -31,13 +30,12 @@ h1 {
   width: 100px;
   background-color: white;
   cursor: pointer;
-  box-shadow:0 0 100px gold transparent;
+  box-shadow:0 0 100px rgb(12, 12, 12) transparent;
   transition: 300ms;
 }
 .white:hover,.black:hover {
-
   z-index: 2;
-  box-shadow: 0 0 20px gold;
+  box-shadow: 0 0 20px rgb(19, 19, 18);
   transform:scale(1.05);
 }
 .black {
